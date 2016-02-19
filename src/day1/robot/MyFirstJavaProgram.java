@@ -6,8 +6,14 @@ import org.jointheleague.graphical.robot.Robot;
 public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		
-		// START HERE
-
+		Robot x = new Robot();
+			
+			x.penDown(); 
+		
+		for (int i = 0; i < args.length; i++) {
+			
+			x.moveTo(10, 10y);
+		}
 	
 		
 		
