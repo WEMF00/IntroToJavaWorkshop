@@ -10,9 +10,11 @@ public class MyFirstJavaProgram {
 			
 			x.penDown(); 
 		
-		for (int i = 0; i < args.length; i++) {
+		for (int i = 0; i < 6; i++) {
 			
-			x.moveTo(10, 10y);
+			x.move(100);
+			x.turn(45);
+			x.move(100);
 		}
 	
 		
